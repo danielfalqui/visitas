@@ -1,0 +1,680 @@
+{
+  "regioes": [
+    {
+      "id": "r1",
+      "rotulo": "R1",
+      "nome": "Região 1",
+      "distritos": [
+        {
+          "id": "bela_aurora",
+          "nome": "Bela Aurora",
+          "igrejas": [
+            "Bandeirantes",
+            "Bela Aurora",
+            "Boa Sorte",
+            "Vista Mar"
+          ]
+        },
+        {
+          "id": "campo_grande",
+          "nome": "Campo Grande",
+          "igrejas": [
+            "Campo Grande",
+            "São Francisco - Cariacica"
+          ]
+        },
+        {
+          "id": "jardim_america",
+          "nome": "Jardim América",
+          "igrejas": [
+            "Alto Lage",
+            "Flórida",
+            "Itaquari",
+            "Jardim América",
+            "Vila Capixaba"
+          ]
+        },
+        {
+          "id": "jardim_botanico",
+          "nome": "Jardim Botânico",
+          "igrejas": [
+            "Alzira Ramos",
+            "Bela Vista - Cariacica",
+            "Caçaroca",
+            "Castelo Branco",
+            "Jardim Botânico",
+            "Jardim de Alah",
+            "Juscelino Kubitschek - Cariacica",
+            "Liberdade",
+            "Rio Marinho - Cariacica"
+          ]
+        },
+        {
+          "id": "ministerios_das_prisoes",
+          "nome": "Ministérios das Prisões",
+          "igrejas": [
+            "CDP - Cachoeiro de Itapemirim",
+            "CDP - Viana"
+          ]
+        },
+        {
+          "id": "nova_brasilia",
+          "nome": "Nova Brasília",
+          "igrejas": [
+            "Dom Bosco",
+            "Itacibá",
+            "Itanguá",
+            "Nova Brasília",
+            "Nova Valverde",
+            "Oriente",
+            "Rio Branco",
+            "Santa Cecília",
+            "Tucum",
+            "Vila Independência"
+          ]
+        },
+        {
+          "id": "porto_de_santana",
+          "nome": "Porto de Santana",
+          "igrejas": [
+            "Aparecida - Cariacica",
+            "Flexal I",
+            "Flexal II",
+            "Porto de Santana",
+            "Porto Novo",
+            "Santa Rosa"
+          ]
+        },
+        {
+          "id": "santa_fe",
+          "nome": "Santa Fé",
+          "igrejas": [
+            "Campina Grande",
+            "Jardim Campo Grande",
+            "Jardim Campo Grande II",
+            "Morada de Santa Fé",
+            "Padre Gabriel",
+            "Santa Fé",
+            "Santo André"
+          ]
+        },
+        {
+          "id": "santana",
+          "nome": "Santana",
+          "igrejas": [
+            "Espaço Novo Tempo - Novo Jardim",
+            "Santana",
+            "Vila Grauna",
+            "Vila Petrônio",
+            "Vila Prudêncio",
+            "Vila Prudêncio II"
+          ]
+        },
+        {
+          "id": "sao_geraldo",
+          "nome": "São Geraldo",
+          "igrejas": [
+            "Bairro de Itapemirim",
+            "Rosa da Penha",
+            "São Conrado-cariacica",
+            "São Geraldo",
+            "Vila Isabel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "rotulo": "R2",
+      "nome": "Região 2",
+      "distritos": [
+        {
+          "id": "campo_verde",
+          "nome": "Campo Verde",
+          "igrejas": [
+            "Alice Coutinho",
+            "Campo Verde",
+            "Cariacica",
+            "Prolar",
+            "Residencial Limão",
+            "Santa Luzia",
+            "Santo Antônio II"
+          ]
+        },
+        {
+          "id": "marcilio_de_noronha",
+          "nome": "Marcílio de Noronha",
+          "igrejas": [
+            "Canaã",
+            "Industrial",
+            "Ipanema",
+            "Marcilio de Noronha",
+            "Marcílio de Noronha II",
+            "Morro da Caixa D'água",
+            "Primavera",
+            "Universal"
+          ]
+        },
+        {
+          "id": "marechal_floriano",
+          "nome": "Marechal Floriano",
+          "igrejas": [
+            "Araguaia",
+            "Domingos Martins",
+            "Marechal Floriano",
+            "Melgaço",
+            "Parajú",
+            "Santa Rita - Marechal Floriano",
+            "São Bento de Urânea"
+          ]
+        },
+        {
+          "id": "mucuri",
+          "nome": "Mucuri",
+          "igrejas": [
+            "Mucuri",
+            "Mucuri II",
+            "Nova Campo Grande",
+            "Novo Brasil",
+            "Operário",
+            "Piranema",
+            "Vale dos Reis",
+            "Vista Dourada"
+          ]
+        },
+        {
+          "id": "porto_belo_i",
+          "nome": "Porto Belo I",
+          "igrejas": [
+            "Nova Esperança",
+            "Nova Rosa da Penha I",
+            "Nova Rosa da Penha II",
+            "Porto Belo I",
+            "Porto de Cariacica",
+            "Vila Merlo",
+            "Vila Progresso"
+          ]
+        },
+        {
+          "id": "santa_maria_de_jetiba",
+          "nome": "Santa Maria de Jetibá",
+          "igrejas": [
+            "Caramuru",
+            "Recreio",
+            "Rio Possmoser",
+            "Santa Maria de Jetiba",
+            "Tirol",
+            "Vila Jetibá"
+          ]
+        },
+        {
+          "id": "santa_teresa",
+          "nome": "Santa Teresa",
+          "igrejas": [
+            "Aparecidinha",
+            "Centenário",
+            "Ribeirão do Norte",
+            "Santa Leopoldina",
+            "Santa Lúcia",
+            "Santa Teresa",
+            "Santo Antônio do Canaã"
+          ]
+        },
+        {
+          "id": "viana",
+          "nome": "Viana",
+          "igrejas": [
+            "Araçatíba",
+            "Bom Pastor",
+            "Caxias do Sul - Viana",
+            "El Dourado - Viana",
+            "Jucu",
+            "Morada de Bethânia",
+            "Nova Bethânia",
+            "Perobas",
+            "Vale do Sol",
+            "Viana",
+            "Vila Bethânia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "rotulo": "R3",
+      "nome": "Região 3",
+      "distritos": [
+        {
+          "id": "ataide",
+          "nome": "Ataíde",
+          "igrejas": [
+            "Aribiri",
+            "Ataíde",
+            "Dom João Batista",
+            "Glória",
+            "Jaburuna"
+          ]
+        },
+        {
+          "id": "central_praia_da_costa",
+          "nome": "Central Praia da Costa",
+          "igrejas": [
+            "Central Praia da Costa",
+            "Ilha dos Ayres"
+          ]
+        },
+        {
+          "id": "coqueiral_de_itaparica",
+          "nome": "Coqueiral de Itaparica",
+          "igrejas": [
+            "Coqueiral de Itaparica",
+            "Cristóvão Colombo",
+            "Divino Espírito Santo",
+            "Santa Mônica",
+            "Soteco - Vila Velha"
+          ]
+        },
+        {
+          "id": "espaco_novo_tempo",
+          "nome": "Espaço Novo Tempo",
+          "igrejas": [
+            "Espaço Novo Tempo"
+          ]
+        },
+        {
+          "id": "vila_velha",
+          "nome": "Vila Velha",
+          "igrejas": [
+            "Boa Vista - Vila Velha",
+            "Vila Velha"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "rotulo": "R4",
+      "nome": "Região 4",
+      "distritos": [
+        {
+          "id": "alvorada",
+          "nome": "Alvorada",
+          "igrejas": [
+            "Alvorada",
+            "Capuaba",
+            "Paul",
+            "Planalto",
+            "Primeiro de Maio",
+            "Santa Rita",
+            "São Torquato",
+            "Vila Garrido"
+          ]
+        },
+        {
+          "id": "barra_do_jucu",
+          "nome": "Barra do Jucu",
+          "igrejas": [
+            "Barra do Jucu",
+            "Interlagos",
+            "Morro da Lagoa",
+            "Ponta da Fruta",
+            "Riviera da Barra",
+            "São Conrado",
+            "Ulisses Guimarães"
+          ]
+        },
+        {
+          "id": "cobilandia",
+          "nome": "Cobilândia",
+          "igrejas": [
+            "Cobilândia",
+            "Cobilândia II",
+            "Jardim Marilândia",
+            "Nova América",
+            "Rio Marinho - Vila Velha",
+            "Sotelândia"
+          ]
+        },
+        {
+          "id": "guaranhuns",
+          "nome": "Guaranhuns",
+          "igrejas": [
+            "Araçás",
+            "Guaranhuns",
+            "Jardim do Vale",
+            "Nova Itaparica",
+            "Pontal das Garças",
+            "Vale Encantado"
+          ]
+        },
+        {
+          "id": "ibes",
+          "nome": "Ibes",
+          "igrejas": [
+            "Ibes",
+            "Jardim Asteca",
+            "Santos Dumont"
+          ]
+        },
+        {
+          "id": "joao_goulart",
+          "nome": "João Goulart",
+          "igrejas": [
+            "Barramares",
+            "Cidade de Deus",
+            "Jabaeté",
+            "João Goulart",
+            "Morada da Barra",
+            "Morada dos Lagos",
+            "Normilia",
+            "Terra Vermelha"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "rotulo": "R5",
+      "nome": "Região 5",
+      "distritos": [
+        {
+          "id": "aeroporto",
+          "nome": "Aeroporto",
+          "igrejas": [
+            "Adalberto Simão Nader",
+            "Aeroporto",
+            "Bela Vista I",
+            "Bela Vista II",
+            "Conceição",
+            "Espaço Novo Tempo - Guarapari",
+            "Limão Verde",
+            "Praia do Morro"
+          ]
+        },
+        {
+          "id": "coroado",
+          "nome": "Coroado",
+          "igrejas": [
+            "Alfredo Chaves",
+            "Condados de Meaipe",
+            "Coroado",
+            "Ipiranga",
+            "Kubitschek",
+            "Mãe-bá",
+            "Meaípe",
+            "Praia do Riacho",
+            "Prainha"
+          ]
+        },
+        {
+          "id": "guarapari",
+          "nome": "Guarapari",
+          "igrejas": [
+            "Camurugi",
+            "Guarapari",
+            "Itapebussu",
+            "São Gabriel",
+            "São José",
+            "Sol Nascente"
+          ]
+        },
+        {
+          "id": "piuma",
+          "nome": "Piúma",
+          "igrejas": [
+            "Anchieta",
+            "Céu Azul",
+            "Iconha",
+            "Limeira",
+            "Nova Anchieta",
+            "Nova Jerusalém",
+            "Parati",
+            "Piúma",
+            "Piuminas",
+            "Recanto do Sol"
+          ]
+        },
+        {
+          "id": "setiba",
+          "nome": "Setiba",
+          "igrejas": [
+            "Jabarai",
+            "Jaboticaba",
+            "Perocão",
+            "Portal",
+            "Santa Mônica - Guarapari",
+            "Santa Rosa- Guarapari",
+            "Setiba",
+            "Tartaruga",
+            "Village do Sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "rotulo": "R6",
+      "nome": "Região 6",
+      "distritos": [
+        {
+          "id": "afonso_claudio",
+          "nome": "Afonso Cláudio",
+          "igrejas": [
+            "Afonso Cláudio",
+            "Campo Vinte e Um",
+            "Fazenda Guandu",
+            "Piracema",
+            "São Vicente - Afonso Cláudio",
+            "Vila Nova- Afonso Cláudio",
+            "Vila Pontões"
+          ]
+        },
+        {
+          "id": "brejetuba",
+          "nome": "Brejetuba",
+          "igrejas": [
+            "Alto Vargem Grande",
+            "Brejaubinha",
+            "Brejetuba",
+            "Rancho Dantas",
+            "São Jorge",
+            "Vila Pavão"
+          ]
+        },
+        {
+          "id": "grama",
+          "nome": "Grama",
+          "igrejas": [
+            "Córrego Feliz",
+            "Francisco Correia",
+            "Garrafão",
+            "Grama",
+            "Mata Fria",
+            "Rio Taquara",
+            "São Francisco - Afonso Cláudio",
+            "Serra Pelada",
+            "Três Pontões",
+            "Vila de Serra Pelada"
+          ]
+        },
+        {
+          "id": "iuna",
+          "nome": "Iúna",
+          "igrejas": [
+            "Criciúma - Ibatiba",
+            "Ibatiba",
+            "Ibitirama",
+            "Irupi",
+            "Iuna",
+            "Muniz Freire",
+            "Piaçu",
+            "Promorar I"
+          ]
+        },
+        {
+          "id": "laranja_da_terra",
+          "nome": "Laranja da Terra",
+          "igrejas": [
+            "Bela Vista - Laranja da Terra",
+            "Itaguaçu",
+            "Itarana",
+            "Joatuba",
+            "Laranja da Terra",
+            "Laranjinha",
+            "São Luiz de Miranda"
+          ]
+        },
+        {
+          "id": "sobreiro",
+          "nome": "Sobreiro",
+          "igrejas": [
+            "Alto Sobreiro",
+            "Córrego Machado",
+            "Crisciúma",
+            "Manteiga",
+            "Ribeirão",
+            "Sobreiro",
+            "Vendinha"
+          ]
+        },
+        {
+          "id": "venda_nova_do_imigrante",
+          "nome": "Venda Nova do Imigrante",
+          "igrejas": [
+            "Alto Caxixe Frio",
+            "Alto Providência",
+            "Conceição do Castelo",
+            "Pedra Azul",
+            "São João de Viçosa",
+            "Venda Nova",
+            "Vila da Mata"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r7",
+      "rotulo": "R7",
+      "nome": "Região 7",
+      "distritos": [
+        {
+          "id": "cachoeiro_de_itapemirim",
+          "nome": "Cachoeiro de Itapemirim",
+          "igrejas": [
+            "Alto União",
+            "Aparecida - Cachoeiro",
+            "Cachoeiro de Itapemirim",
+            "Espaço Novo Tempo - Cachoeiro de Itapemirim",
+            "Otto Marins"
+          ]
+        },
+        {
+          "id": "campo_acima",
+          "nome": "Campo Acima",
+          "igrejas": [
+            "Boa Vista do Sul",
+            "Brejo dos Patos",
+            "Brejo Grande do Sul",
+            "Campo Acima",
+            "Grauna",
+            "Marobá",
+            "Presidente Kennedy"
+          ]
+        },
+        {
+          "id": "coramara",
+          "nome": "Coramara",
+          "igrejas": [
+            "Aeroporto - Cachoeiro de Itapemirim",
+            "Aracuí",
+            "Atílio Vivácqua",
+            "Castelo",
+            "Conduru",
+            "Coramara",
+            "Coutinho",
+            "Jerônimo Monteiro"
+          ]
+        },
+        {
+          "id": "guacui",
+          "nome": "Guaçuí",
+          "igrejas": [
+            "Alegre",
+            "Celina",
+            "Divino São Lourenço",
+            "Dores do Rio Preto",
+            "Guaçuí",
+            "Mundo Novo",
+            "Pedra Menina"
+          ]
+        },
+        {
+          "id": "itapemirim",
+          "nome": "Itapemirim",
+          "igrejas": [
+            "Itaipava",
+            "Itapemirim",
+            "Pedrinhos",
+            "Retiro",
+            "Rosa Meireles",
+            "Santo Amaro"
+          ]
+        },
+        {
+          "id": "jacaranda",
+          "nome": "Jacarandá",
+          "igrejas": [
+            "Alvorada - Marataízes",
+            "Barra do Itapemirim",
+            "Jacarandá",
+            "Lagoa Funda",
+            "Marataízes",
+            "Pontal",
+            "Santa Rita - Marataizes",
+            "Sol Nascente - Marataizes"
+          ]
+        },
+        {
+          "id": "jacigua",
+          "nome": "Jaciguá",
+          "igrejas": [
+            "Cachoeira Alta",
+            "Castelinho",
+            "Córrego dos Vieiras",
+            "Gironda",
+            "Itaoca",
+            "Jaciguá",
+            "Soturno",
+            "Vargem Alta",
+            "Vila Maria"
+          ]
+        },
+        {
+          "id": "mimoso_do_sul",
+          "nome": "Mimoso do Sul",
+          "igrejas": [
+            "Aliança",
+            "Apiacá",
+            "Bom Jesus do Norte",
+            "Córrego da Bandeira",
+            "Mimoso do Sul",
+            "Muquí",
+            "São José do Calçado"
+          ]
+        },
+        {
+          "id": "vila_rica",
+          "nome": "Vila Rica",
+          "igrejas": [
+            "Assentamento Nova Safra",
+            "Ibc",
+            "Quarteirão",
+            "Rio Novo do Sul",
+            "Vila Rica",
+            "Village da Luz"
+          ]
+        }
+      ]
+    }
+ ]
+}

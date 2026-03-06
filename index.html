@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visitas de Departamentos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <button id="btnBack" class="btn ghost" disabled>← Voltar</button>
+
+    <h1 id="pageTitle" class="mainTitle">REGIÃO</h1>
+
+    <div class="topActions">
+      <button id="btnConsulta" class="btn ghost">Consulta</button>
+      <button id="btnHome" class="btn ghost">Início</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <section id="gridScreen">
+      <div id="breadcrumb" class="breadcrumb"></div>
+      <div id="grid" class="grid"></div>
+    </section>
+
+    <section id="recordScreen" class="hidden">
+      <div class="card">
+        <h2 id="recordTitle">Registrar visita</h2>
+        <div id="recordSub" class="cardSub"></div>
+
+        <label for="inpDept">Departamento</label>
+        <select id="inpDept" class="input">
+          <option value="">Selecione um departamento</option>
+          <option>Administração</option>
+          <option>Mordomia</option>
+          <option>Escola Sabatina</option>
+          <option>Ministério Pessoal</option>
+          <option>Jovens</option>
+          <option>Aventureiros</option>
+          <option>Desbravadores</option>
+          <option>Mulher</option>
+          <option>Família</option>
+          <option>Comunicação</option>
+          <option>ASA</option>
+          <option>Educação</option>
+        </select>
+
+        <label for="inpDate">Data da visita</label>
+        <input id="inpDate" type="date" class="input">
+
+        <label for="inpObs">Observação</label>
+        <select id="inpObs" class="input">
+          <option value="">Selecione uma observação</option>
+          <option>Evento</option>
+          <option>Pregação</option>
+          <option>Treinamento</option>
+        </select>
+
+        <div class="row">
+          <button id="btnSave" class="btn">Salvar</button>
+          <button id="btnClearChurch" class="btn ghost">Zerar registros</button>
+        </div>
+
+        <h3>Registros desta igreja</h3>
+        <div id="recordList"></div>
+      </div>
+    </section>
+
+    <section id="deptScreen" class="hidden">
+      <div class="searchBar">
+        <select id="queryDept" class="searchSelect">
+          <option value="">departamento.....</option>
+          <option>Administração</option>
+          <option>Mordomia</option>
+          <option>Escola Sabatina</option>
+          <option>Ministério Pessoal</option>
+          <option>Jovens</option>
+          <option>Aventureiros</option>
+          <option>Desbravadores</option>
+          <option>Mulher</option>
+          <option>Família</option>
+          <option>Comunicação</option>
+          <option>ASA</option>
+          <option>Educação</option>
+        </select>
+
+        <button id="btnPesquisarDept" class="searchBtn">pesquisar</button>
+      </div>
+
+      <div id="deptInfo" class="deptInfo"></div>
+      <div id="deptGrid" class="grid auto dept-grid"></div>
+    </section>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="app.js"></script>
+</body>
+</html>

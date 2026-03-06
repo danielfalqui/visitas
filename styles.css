@@ -1,0 +1,273 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  background:#f3f3f3;
+}
+
+.topbar{
+  height:90px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:10px 20px;
+  background:white;
+  position:sticky;
+  top:0;
+  z-index:10;
+}
+
+.mainTitle{
+  position:absolute;
+  left:0;
+  right:0;
+  text-align:center;
+  font-size:70px;
+  font-weight:900;
+  margin:0;
+  pointer-events:none;
+}
+
+.topActions{
+  display:flex;
+  gap:10px;
+}
+
+.btn{
+  padding:10px 14px;
+  border-radius:10px;
+  border:none;
+  background:#111;
+  color:white;
+  cursor:pointer;
+  font-size:14px;
+}
+
+.btn.ghost{
+  background:transparent;
+  border:2px solid black;
+  color:black;
+}
+
+.wrap{
+  max-width:1100px;
+  margin:auto;
+  padding:20px;
+}
+
+.breadcrumb{
+  text-align:center;
+  margin-bottom:20px;
+  color:#666;
+  min-height:20px;
+}
+
+.grid{
+  display:grid;
+  gap:40px;
+  justify-items:center;
+}
+
+.grid.regions{
+  grid-template-columns:repeat(4,1fr);
+  max-width:900px;
+  margin:auto;
+}
+
+.grid.regions .node:nth-child(5){grid-column:2;}
+.grid.regions .node:nth-child(6){grid-column:3;}
+.grid.regions .node:nth-child(7){grid-column:4;}
+
+.grid.auto{
+  grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+}
+
+.node{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  width:160px;
+  position:relative;
+  overflow:visible;
+}
+
+.circle{
+  width:120px;
+  height:120px;
+  border-radius:100px;
+  border:5px solid black;
+  background:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  transition:transform .12s ease;
+}
+
+.circle:hover{
+  transform:translateY(-2px);
+}
+
+.circleNumber{
+  font-size:34px;
+  font-weight:900;
+  color:#000;
+}
+
+.labelUnder{
+  margin-top:10px;
+  font-size:24px;
+  text-align:center;
+  line-height:1.15;
+  word-break:break-word;
+}
+
+.card{
+  background:white;
+  padding:20px;
+  border-radius:14px;
+  max-width:700px;
+  margin:auto;
+}
+
+.cardSub{
+  color:#666;
+  margin-bottom:12px;
+}
+
+.input{
+  width:100%;
+  padding:10px;
+  margin-top:5px;
+  margin-bottom:15px;
+  font-size:15px;
+}
+
+.row{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
+
+.hidden{
+  display:none !important;
+}
+
+.searchBar{
+  display:flex;
+  gap:22px;
+  align-items:center;
+  margin:20px 0 40px;
+  flex-wrap:wrap;
+}
+
+.searchSelect{
+  width:330px;
+  height:58px;
+  border-radius:30px;
+  border:2px solid #222;
+  background:#fff;
+  padding:0 18px;
+  font-size:16px;
+  outline:none;
+}
+
+.searchBtn{
+  width:205px;
+  height:58px;
+  border:none;
+  border-radius:30px;
+  background:#6a00e8;
+  color:#fff;
+  font-size:24px;
+  cursor:pointer;
+  font-weight:600;
+  text-transform:lowercase;
+}
+
+.deptInfo{
+  min-height:24px;
+  margin:0 0 20px;
+  font-size:18px;
+  color:#444;
+}
+
+#recordList{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  margin-top:10px;
+}
+
+#recordList div{
+  padding:10px 12px;
+  background:#f7f7f7;
+  border-radius:10px;
+  border:1px solid #ddd;
+}
+
+/* Garante que o grid da consulta não corte o popup */
+.dept-grid{
+  overflow:visible;
+}
+
+/* POP-UP LATERAL REAL */
+.popup{
+  position:absolute;
+  left:140px;
+  top:8px;
+  width:240px;
+  background:#fff;
+  border:1px solid #d0d0d0;
+  border-radius:12px;
+  padding:12px;
+  box-shadow:0 10px 24px rgba(0,0,0,.18);
+  z-index:999;
+  display:none;
+}
+
+.popup.show{
+  display:block;
+}
+
+.popupItem{
+  padding:8px 0;
+  border-bottom:1px solid #ececec;
+}
+
+.popupItem:last-child{
+  border-bottom:none;
+}
+
+.popupDate{
+  font-size:13px;
+  font-weight:700;
+  color:#222;
+  margin-bottom:4px;
+}
+
+.popupObs{
+  font-size:13px;
+  color:#555;
+}
+
+.popup::before{
+  content:"";
+  position:absolute;
+  left:-10px;
+  top:28px;
+  width:0;
+  height:0;
+  border-top:10px solid transparent;
+  border-bottom:10px solid transparent;
+  border-right:10px solid #fff;
+}
+
+/* IMPORTANTE: impedir conteúdo extra visível embaixo da bolinha */
+.node .popup,
+.node .popup *{
+  white-space:normal;
+}
