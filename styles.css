@@ -72,15 +72,27 @@ body{
 }
 
 /* REGIÕES */
-/* agora funciona bem com 7, 8 ou mais bolinhas */
+/* Organiza automaticamente em 4 colunas */
 .grid.regions{
-  grid-template-columns:repeat(4, minmax(140px, 1fr));
+  display:grid;
+  grid-template-columns:repeat(4, 160px);
   justify-content:center;
   align-items:start;
+  column-gap:56px;
+  row-gap:42px;
   max-width:900px;
   margin:40px auto 0;
-  row-gap:42px;
-  column-gap:56px;
+}
+
+/* ANULA QUALQUER POSICIONAMENTO ANTIGO */
+.grid.regions .node:nth-child(5),
+.grid.regions .node:nth-child(6),
+.grid.regions .node:nth-child(7),
+.grid.regions .node:nth-child(8),
+.grid.regions .node:nth-child(9),
+.grid.regions .node:nth-child(10){
+  grid-column:auto !important;
+  grid-row:auto !important;
 }
 
 /* outros grids */
@@ -275,8 +287,8 @@ body{
 /* RESPONSIVO */
 @media (max-width: 980px){
   .grid.regions{
-    grid-template-columns:repeat(3, minmax(140px, 1fr));
-    max-width:700px;
+    grid-template-columns:repeat(3, 160px);
+    max-width:620px;
   }
 
   .mainTitle{
@@ -286,8 +298,8 @@ body{
 
 @media (max-width: 700px){
   .grid.regions{
-    grid-template-columns:repeat(2, minmax(140px, 1fr));
-    max-width:420px;
+    grid-template-columns:repeat(2, 160px);
+    max-width:360px;
   }
 
   .mainTitle{
