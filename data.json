@@ -675,6 +675,20 @@
           ]
         }
       ]
+    },
+    {
+        "id": "ases",
+      "rotulo": "ASES",
+      "nome": "Ases",
+       "distritos": [
+         {
+          "id": "ASES",
+          "nome": "ASES",
+          "igrejas": [
+            "Evento ASES"
+          ]
+        }
+       ]
     }
  ]
 }
