@@ -71,16 +71,19 @@ body{
   justify-items:center;
 }
 
+/* REGIÕES */
+/* agora funciona bem com 7, 8 ou mais bolinhas */
 .grid.regions{
-  grid-template-columns:repeat(4,1fr);
+  grid-template-columns:repeat(4, minmax(140px, 1fr));
+  justify-content:center;
+  align-items:start;
   max-width:900px;
-  margin:auto;
+  margin:40px auto 0;
+  row-gap:42px;
+  column-gap:56px;
 }
 
-.grid.regions .node:nth-child(5){grid-column:2;}
-.grid.regions .node:nth-child(6){grid-column:3;}
-.grid.regions .node:nth-child(7){grid-column:4;}
-
+/* outros grids */
 .grid.auto{
   grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
 }
@@ -209,12 +212,10 @@ body{
   border:1px solid #ddd;
 }
 
-/* Garante que o grid da consulta não corte o popup */
 .dept-grid{
   overflow:visible;
 }
 
-/* POP-UP LATERAL REAL */
 .popup{
   position:absolute;
   left:140px;
@@ -266,8 +267,34 @@ body{
   border-right:10px solid #fff;
 }
 
-/* IMPORTANTE: impedir conteúdo extra visível embaixo da bolinha */
 .node .popup,
 .node .popup *{
   white-space:normal;
+}
+
+/* RESPONSIVO */
+@media (max-width: 980px){
+  .grid.regions{
+    grid-template-columns:repeat(3, minmax(140px, 1fr));
+    max-width:700px;
+  }
+
+  .mainTitle{
+    font-size:56px;
+  }
+}
+
+@media (max-width: 700px){
+  .grid.regions{
+    grid-template-columns:repeat(2, minmax(140px, 1fr));
+    max-width:420px;
+  }
+
+  .mainTitle{
+    font-size:42px;
+  }
+
+  .labelUnder{
+    font-size:20px;
+  }
 }
